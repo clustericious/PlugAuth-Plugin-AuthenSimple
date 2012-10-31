@@ -30,7 +30,7 @@ This plugin allows any L<Authen::Simple> implementation to be used as an
 authentication mechanism for L<PlugAuth>.  Because L<Authen::Simple> 
 does not provide a user list, neither does this plugin, so you will need 
 to maintain a list of users, perhaps using the 
-L<PlugAuth::Plugin::UserList> plugin.
+L<PlugAuth::Plugin::FlatUserList> plugin.
 
 =cut
 
