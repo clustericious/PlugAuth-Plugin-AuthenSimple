@@ -2,6 +2,9 @@
 pod_spelling_system:
   stopwords:
     - PlugAuth.conf
+    - AuthenSimple
+    - PlugAuth
+    - conf
 
 pod_coverage:
   private:
