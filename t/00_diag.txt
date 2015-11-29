@@ -1,12 +1,9 @@
 Authen::Simple
+Clustericious
 ExtUtils::MakeMaker
 File::HomeDir
-File::HomeDir::Test
-File::Spec
 Params::Validate
 PlugAuth
-PlugAuth::Role::Auth
-PlugAuth::Role::Plugin
 Role::Tiny
 Test::More
 YAML
