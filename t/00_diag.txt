@@ -2,6 +2,7 @@ Authen::Simple
 Clustericious
 ExtUtils::MakeMaker
 File::HomeDir
+Mojolicious
 Params::Validate
 PlugAuth
 Role::Tiny
