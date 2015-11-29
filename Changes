@@ -1,6 +1,8 @@
 Revision history for {{$dist->name}}
 
 {{$NEXT}}
+
+0.02      2015-11-29 15:13:26 -0500
   - Improved diagnostics with test
   - Moved repository to clustericious org on github
     (updated meta appropriately)
