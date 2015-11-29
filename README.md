@@ -17,19 +17,19 @@ PlugAuth.conf:
 
 # DESCRIPTION
 
-This plugin allows any [Authen::Simple](http://search.cpan.org/perldoc?Authen::Simple) implementation to be used as an 
-authentication mechanism for [PlugAuth](http://search.cpan.org/perldoc?PlugAuth).  Because [Authen::Simple](http://search.cpan.org/perldoc?Authen::Simple) 
+This plugin allows any [Authen::Simple](https://metacpan.org/pod/Authen::Simple) implementation to be used as an 
+authentication mechanism for [PlugAuth](https://metacpan.org/pod/PlugAuth).  Because [Authen::Simple](https://metacpan.org/pod/Authen::Simple) 
 does not provide a user list, neither does this plugin, so you will need 
 to maintain a list of users, perhaps using the 
-[PlugAuth::Plugin::FlatUserList](http://search.cpan.org/perldoc?PlugAuth::Plugin::FlatUserList) plugin.
+[PlugAuth::Plugin::FlatUserList](https://metacpan.org/pod/PlugAuth::Plugin::FlatUserList) plugin.
 
 # SEE ALSO
 
-[PlugAuth](http://search.cpan.org/perldoc?PlugAuth), [Authen::Simple](http://search.cpan.org/perldoc?Authen::Simple)
+[PlugAuth](https://metacpan.org/pod/PlugAuth), [Authen::Simple](https://metacpan.org/pod/Authen::Simple)
 
 # AUTHOR
 
-Graham Ollis <plicease@cpan.org>
+Graham Ollis &lt;plicease@cpan.org>
 
 # COPYRIGHT AND LICENSE
 
