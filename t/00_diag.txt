@@ -6,5 +6,4 @@ Params::Validate
 PlugAuth
 Role::Tiny
 Test::More
-YAML
 YAML::XS

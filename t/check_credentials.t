@@ -4,7 +4,7 @@ use File::HomeDir::Test;
 use File::HomeDir;
 use File::Spec;
 use Test::More tests => 7;
-use YAML ();
+use YAML::XS ();
 use PlugAuth;
 
 delete $ENV{HARNESS_ACTIVE};
@@ -15,7 +15,7 @@ my $y = 0;
 
 my $home = File::HomeDir->my_home;
 mkdir(File::Spec->catdir($home, 'etc'));
-YAML::DumpFile(File::Spec->catfile($home, 'etc', 'PlugAuth.conf'), {
+YAML::XS::DumpFile(File::Spec->catfile($home, 'etc', 'PlugAuth.conf'), {
   plugins => { 
     'PlugAuth::Plugin::AuthenSimple' => [ 
       { 'Authen::Simple::Test1' => { x => 1 } },
