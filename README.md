@@ -1,4 +1,4 @@
-# PlugAuth::Plugin::AuthenSimple
+# PlugAuth::Plugin::AuthenSimple [![Build Status](https://secure.travis-ci.org/clustericious/PlugAuth-Plugin-AuthenSimple.png)](http://travis-ci.org/clustericious/PlugAuth-Plugin-AuthenSimple)
 
 AuthenSimple plugin for PlugAuth
 
