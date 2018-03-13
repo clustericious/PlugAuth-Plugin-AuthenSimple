@@ -1,6 +1,6 @@
 # PlugAuth::Plugin::AuthenSimple [![Build Status](https://secure.travis-ci.org/clustericious/PlugAuth-Plugin-AuthenSimple.png)](http://travis-ci.org/clustericious/PlugAuth-Plugin-AuthenSimple)
 
-AuthenSimple plugin for PlugAuth
+(Deprecated) AuthenSimple plugin for PlugAuth
 
 # SYNOPSIS
 
@@ -16,6 +16,9 @@ PlugAuth.conf:
               pdc: PDC
 
 # DESCRIPTION
+
+**NOTE**: This module has been deprecated, and may be removed on or after 31 December 2018.
+Please see [https://github.com/clustericious/Clustericious/issues/46](https://github.com/clustericious/Clustericious/issues/46).
 
 This plugin allows any [Authen::Simple](https://metacpan.org/pod/Authen::Simple) implementation to be used as an 
 authentication mechanism for [PlugAuth](https://metacpan.org/pod/PlugAuth).  Because [Authen::Simple](https://metacpan.org/pod/Authen::Simple) 

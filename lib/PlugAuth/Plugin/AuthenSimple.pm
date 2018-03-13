@@ -8,7 +8,7 @@ use Role::Tiny::With;
 with 'PlugAuth::Role::Plugin';
 with 'PlugAuth::Role::Auth';
 
-# ABSTRACT: AuthenSimple plugin for PlugAuth
+# ABSTRACT: (Deprecated) AuthenSimple plugin for PlugAuth
 # VERSION
 
 =head1 SYNOPSIS
@@ -25,6 +25,9 @@ PlugAuth.conf:
            pdc: PDC
 
 =head1 DESCRIPTION
+
+B<NOTE>: This module has been deprecated, and may be removed on or after 31 December 2018.
+Please see L<https://github.com/clustericious/Clustericious/issues/46>.
 
 This plugin allows any L<Authen::Simple> implementation to be used as an 
 authentication mechanism for L<PlugAuth>.  Because L<Authen::Simple> 
